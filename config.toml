@@ -1,5 +1,5 @@
 title = "shinono_memo"
-baseURL = "https://Iris-inch.github.io"
+baseURL = "https://iris-inch.github.io/notebook.com/"
 languageCode = "ja"
 theme = "ananke"
 resourceDir = "../resources"
