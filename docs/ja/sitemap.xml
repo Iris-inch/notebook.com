@@ -2,57 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Iris-inch.github.io/post/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/post/</loc>
     <lastmod>2022-12-14T12:04:59+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://Iris-inch.github.io/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/</loc>
     <lastmod>2022-12-14T12:04:59+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Iris-inch.github.io/en/"
+                href="https://iris-inch.github.io/notebook.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://Iris-inch.github.io/"
+                href="https://iris-inch.github.io/notebook.com/"
                 />
   </url><url>
-    <loc>https://Iris-inch.github.io/post/hicpro/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/post/hicpro/</loc>
     <lastmod>2022-12-14T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://Iris-inch.github.io/categories/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Iris-inch.github.io/en/categories/"
+                href="https://iris-inch.github.io/notebook.com/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://Iris-inch.github.io/categories/"
+                href="https://iris-inch.github.io/notebook.com/categories/"
                 />
   </url><url>
-    <loc>https://Iris-inch.github.io/tags/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Iris-inch.github.io/en/tags/"
+                href="https://iris-inch.github.io/notebook.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://Iris-inch.github.io/tags/"
+                href="https://iris-inch.github.io/notebook.com/tags/"
                 />
   </url>
 </urlset>

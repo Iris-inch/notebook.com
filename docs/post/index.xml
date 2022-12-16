@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on ShinOno</title>
-    <link>https://Iris-inch.github.io/post/</link>
+    <link>https://iris-inch.github.io/notebook.com/post/</link>
     <description>Recent content in Post on ShinOno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Wed, 14 Dec 2022 12:04:59 +0900</lastBuildDate><atom:link href="https://Iris-inch.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2022 12:04:59 +0900</lastBuildDate><atom:link href="https://iris-inch.github.io/notebook.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HiC-Proの導入方法</title>
-      <link>https://Iris-inch.github.io/post/hicpro/</link>
+      <link>https://iris-inch.github.io/notebook.com/post/hicpro/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://Iris-inch.github.io/post/hicpro/</guid>
+      <guid>https://iris-inch.github.io/notebook.com/post/hicpro/</guid>
       <description>
 1. Pythonライブラリのインストール Pythonライブラリであるbx-python, numpy, scipy, pysam, argparse, pandas, icedをpipでインストールする。
 pip install bx-python numpy scipy pysam argparse pandas iced 2. Rの準備 Rのパッケージであるggplot2、RColorBrewer、gridをインストールする。

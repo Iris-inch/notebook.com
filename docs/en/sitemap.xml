@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://Iris-inch.github.io/en/categories/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/en/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://Iris-inch.github.io/categories/"
+                href="https://iris-inch.github.io/notebook.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Iris-inch.github.io/en/categories/"
+                href="https://iris-inch.github.io/notebook.com/en/categories/"
                 />
   </url><url>
-    <loc>https://Iris-inch.github.io/en/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/en/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://Iris-inch.github.io/"
+                href="https://iris-inch.github.io/notebook.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Iris-inch.github.io/en/"
+                href="https://iris-inch.github.io/notebook.com/en/"
                 />
   </url><url>
-    <loc>https://Iris-inch.github.io/en/tags/</loc>
+    <loc>https://iris-inch.github.io/notebook.com/en/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="https://Iris-inch.github.io/tags/"
+                href="https://iris-inch.github.io/notebook.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://Iris-inch.github.io/en/tags/"
+                href="https://iris-inch.github.io/notebook.com/en/tags/"
                 />
   </url>
 </urlset>
