@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on ShinOno</title>
+    <link>https://Iris-inch.github.io/post/</link>
+    <description>Recent content in Post on ShinOno</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Wed, 14 Dec 2022 12:04:59 +0900</lastBuildDate><atom:link href="https://Iris-inch.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HiC-Proの導入方法</title>
+      <link>https://Iris-inch.github.io/post/hicpro/</link>
+      <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://Iris-inch.github.io/post/hicpro/</guid>
+      <description>
+1. Pythonライブラリのインストール Pythonライブラリであるbx-python, numpy, scipy, pysam, argparse, pandas, icedをpipでインストールする。
+pip install bx-python numpy scipy pysam argparse pandas iced 2. Rの準備 Rのパッケージであるggplot2、RColorBrewer、gridをインストールする。
+3. 他のツールのインストール bowtie2とsamtoolsをインストールする
+brew install bowtie2 brew install samtools 4. g++ compilerのインストール brew install gcc 3,4はやらなくてもよい? HiC-Proのインストール HiC-ProのインストールはConda, Docker, Singularityで行える。
+私はCondaで導入した。
+インストール可能なanacondaの検索
+pyenv install -l | grep anaconda インストール
+pyenv install anaconda3 Conda環境の作成(HiC-Proのインストール)
+conda env create -f MY_INSTALL_PATH/HiC-Pro/environment.yml -p WHERE_TO_INSTALL_MY_ENV conda activate WHERE_TO_INSTALL_MY_ENV テストデータの動かしかた </description>
+    </item>
+    
+  </channel>
+</rss>
