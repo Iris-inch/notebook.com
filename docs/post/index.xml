@@ -8,6 +8,30 @@
     <language>ja</language>
     <lastBuildDate>Wed, 14 Dec 2022 12:04:59 +0900</lastBuildDate><atom:link href="https://iris-inch.github.io/notebook.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>M1 macでバイオインフォマティクス講習を受けて苦労したこと</title>
+      <link>https://iris-inch.github.io/notebook.com/post/m1_chip/</link>
+      <pubDate>Mon, 19 Dec 2022 17:26:29 +0900</pubDate>
+      
+      <guid>https://iris-inch.github.io/notebook.com/post/m1_chip/</guid>
+      <description>バイオインフォマティクス講習ではさまざまなツールやパッケージを扱うが、
+いくつかがM1チップ(arm64)に対応していなかったので一応の解決策を挙げる。
+HISAT2周りの導入 HISAT2周りのツールのインストール・実行の際にエラーが出る。
+解決策は2つあるが、後者をお勧めする。
+1. x86_64バージョンのbrewもインストールする arch -x86_64 /bin/bash -c &amp;#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh) でx86_64バージョンのbrewをインストールする。
+このbrewを用いてパッケージをインストールするには、
+arch -x86_64 brew install PACKAGE を使う。
+参考:古いbrewのインストールと動かし方
+ただし、この方法だと他のパッケージと組み合わせるときに、どちらのbrewを参照するかで不備が生じる可能性がある。
+2. バイナリ版をダウンロードし、PATHを通す。 詳しくは先輩のページを参照されたし。
+RパッケージTCC (edgeR)のインストール BiocManagerでTCCをインストールする際に、edgeRとその他がインストールできなくなっている。
+私の環境では、gfortranをインストールすることで動くようになった。
+gfortran
+How to install
+場合によっては、Xcodeのインストールも必要かもしれない。
+この方法により、edgeRはインストールできたが、nlmeはできなかったため、根本的な解決にはなっていないと思われる。</description>
+    </item>
+    
+    <item>
       <title>HiC-Proの導入方法</title>
       <link>https://iris-inch.github.io/notebook.com/post/hicpro/</link>
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
