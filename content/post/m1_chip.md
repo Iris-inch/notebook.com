@@ -10,7 +10,6 @@ description: ""
 いくつかがM1チップ(arm64)に対応していなかったので一応の解決策を挙げる。  
  <br><br>
 
-
 ## HISAT2周りの導入  
 
 HISAT2周りのツールのインストール・実行の際にエラーが出る。  
@@ -51,9 +50,6 @@ arch -x86_64 brew install PACKAGE
 <br>
 <br>
 <br>
-<br>
-
-
 
 
 ## RパッケージTCC (edgeR)のインストール
@@ -64,7 +60,8 @@ BiocManagerでTCCをインストールする際に、edgeRとその他がイン�
 私の環境では、gfortranをインストールすることで動くようになった。
 
 [gfortran](https://github.com/fxcoudert/gfortran-for-macOS/releases)  
-<br>
+
+
 [How to install](file:///Volumes/gfortran-ARM-12.2-Ventura/README.html)
 
 場合によっては、Xcodeのインストールも必要かもしれない。
