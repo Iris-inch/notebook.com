@@ -6,7 +6,16 @@
     <description>Recent content on ShinOno</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 19 Dec 2022 17:26:29 +0900</lastBuildDate><atom:link href="https://iris-inch.github.io/notebook.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 17:11:06 +0900</lastBuildDate><atom:link href="https://iris-inch.github.io/notebook.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VS</title>
+      <link>https://iris-inch.github.io/notebook.com/post/vs/</link>
+      <pubDate>Fri, 13 Jan 2023 17:11:06 +0900</pubDate>
+      
+      <guid>https://iris-inch.github.io/notebook.com/post/vs/</guid>
+      <description>VS codeを使ってgitの管理が楽に行えそうなので、使ってみる。 VS code上で記事の編集、commit、push等のサイト更新に必要なことが一通り行える。</description>
+    </item>
+    
     <item>
       <title>M1 macでバイオインフォマティクス講習を受けて苦労したこと</title>
       <link>https://iris-inch.github.io/notebook.com/post/m1_chip/</link>
@@ -37,16 +46,11 @@ How to install
       <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://iris-inch.github.io/notebook.com/post/hicpro/</guid>
-      <description>
-1. Pythonライブラリのインストール Pythonライブラリであるbx-python, numpy, scipy, pysam, argparse, pandas, icedをpipでインストールする。
-pip install bx-python numpy scipy pysam argparse pandas iced 2. Rの準備 Rのパッケージであるggplot2、RColorBrewer、gridをインストールする。
-3. 他のツールのインストール bowtie2とsamtoolsをインストールする
-brew install bowtie2 brew install samtools 4. g++ compilerのインストール brew install gcc 3,4はやらなくてもよい? HiC-Proのインストール HiC-ProのインストールはConda, Docker, Singularityで行える。
-私はCondaで導入した。
-インストール可能なanacondaの検索
-pyenv install -l | grep anaconda インストール
-pyenv install anaconda3 Conda環境の作成(HiC-Proのインストール)
-conda env create -f MY_INSTALL_PATH/HiC-Pro/environment.yml -p WHERE_TO_INSTALL_MY_ENV conda activate WHERE_TO_INSTALL_MY_ENV テストデータの動かしかた </description>
+      <description>HiC-Proの導入において苦戦したため日本語解説を残しておく。 HiC-Proのインストールは、Conda, Docker, Singularityでのみ行える。そのため、自分のPCではConda、スパコン(遺伝研)ではSingularityで行うことになると思う。ここでは、Condaを用いたインストール方法について説明する。
+1. Pythonライブラリのインストール Pythonライブラリであるbx-python, numpy, scipy, pysam, argparse, pandas, icedをpipでインストールする。 pip install bx-python numpy scipy pysam argparse pandas iced 2. Rの準備 Rのパッケージであるggplot2、RColorBrewer、gridをインストールする。
+3. 他のツールのインストール bowtie2とsamtoolsをインストールする brew install bowtie2 brew install samtools 4. g++ compilerのインストール brew install gcc 5.Condaによるインストール minicondaのインストール
+pyenv install miniconda3-latest もしくは (https://docs.conda.io/en/latest/miniconda.html)よりそれぞれの環境に合ったものをインストールする 6. Conda環境の作成(HiC-Proのインストール) conda env create -f MY_INSTALL_PATH/HiC-Pro/environment.yml -p WHERE_TO_INSTALL_MY_ENV conda activate WHERE_TO_INSTALL_MY_ENV テストデータの動かしかた Hi-Cデータの取得 wget https://zerkalo.curie.fr/partage/HiC-Pro/HiCPro_testdata.tar.gz &amp;amp;&amp;amp; tar -zxvf HiCPro_testdata.tar.gz これをtest_dataファイルに入れる
+Bowtie2 manualページからヒトhg19のindexesフォルダをダウンロードし作業ディレクトリに入れる</description>
     </item>
     
   </channel>

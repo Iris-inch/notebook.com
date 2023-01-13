@@ -137,6 +137,30 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
+          <a href="https://iris-inch.github.io/notebook.com/post/vs/" class="color-inherit dim link">
+            VS
+            </a>
+        </h1>
+        <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
+          VS codeを使ってgitの管理が楽に行えそうなので、使ってみる。 VS code上で記事の編集、commit、push等のサイト更新に必要なことが一通り行える。
+        </div>
+          <a href="https://iris-inch.github.io/notebook.com/post/vs/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">もっと読む</a>
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+          </div>
+        
+          <div class="relative w-100 mb4">
+            
+<article class="bb b--black-10">
+  <div class="db pv4 ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      
+      <div class="blah w-100">
+        <h1 class="f3 fw1 athelas mt0 lh-title">
           <a href="https://iris-inch.github.io/notebook.com/post/m1_chip/" class="color-inherit dim link">
             M1 macでバイオインフォマティクス講習を受けて苦労したこと
             </a>
@@ -181,16 +205,11 @@ How to install
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          
-1. Pythonライブラリのインストール Pythonライブラリであるbx-python, numpy, scipy, pysam, argparse, pandas, icedをpipでインストールする。
-pip install bx-python numpy scipy pysam argparse pandas iced 2. Rの準備 Rのパッケージであるggplot2、RColorBrewer、gridをインストールする。
-3. 他のツールのインストール bowtie2とsamtoolsをインストールする
-brew install bowtie2 brew install samtools 4. g++ compilerのインストール brew install gcc 3,4はやらなくてもよい? HiC-Proのインストール HiC-ProのインストールはConda, Docker, Singularityで行える。
-私はCondaで導入した。
-インストール可能なanacondaの検索
-pyenv install -l | grep anaconda インストール
-pyenv install anaconda3 Conda環境の作成(HiC-Proのインストール)
-conda env create -f MY_INSTALL_PATH/HiC-Pro/environment.yml -p WHERE_TO_INSTALL_MY_ENV conda activate WHERE_TO_INSTALL_MY_ENV テストデータの動かしかた 
+          HiC-Proの導入において苦戦したため日本語解説を残しておく。 HiC-Proのインストールは、Conda, Docker, Singularityでのみ行える。そのため、自分のPCではConda、スパコン(遺伝研)ではSingularityで行うことになると思う。ここでは、Condaを用いたインストール方法について説明する。
+1. Pythonライブラリのインストール Pythonライブラリであるbx-python, numpy, scipy, pysam, argparse, pandas, icedをpipでインストールする。 pip install bx-python numpy scipy pysam argparse pandas iced 2. Rの準備 Rのパッケージであるggplot2、RColorBrewer、gridをインストールする。
+3. 他のツールのインストール bowtie2とsamtoolsをインストールする brew install bowtie2 brew install samtools 4. g++ compilerのインストール brew install gcc 5.Condaによるインストール minicondaのインストール
+pyenv install miniconda3-latest もしくは (https://docs.conda.io/en/latest/miniconda.html)よりそれぞれの環境に合ったものをインストールする 6. Conda環境の作成(HiC-Proのインストール) conda env create -f MY_INSTALL_PATH/HiC-Pro/environment.yml -p WHERE_TO_INSTALL_MY_ENV conda activate WHERE_TO_INSTALL_MY_ENV テストデータの動かしかた Hi-Cデータの取得 wget https://zerkalo.curie.fr/partage/HiC-Pro/HiCPro_testdata.tar.gz &amp;&amp; tar -zxvf HiCPro_testdata.tar.gz これをtest_dataファイルに入れる
+Bowtie2 manualページからヒトhg19のindexesフォルダをダウンロードし作業ディレクトリに入れる
         </div>
           <a href="https://iris-inch.github.io/notebook.com/post/hicpro/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">もっと読む</a>
         
@@ -212,7 +231,7 @@ conda env create -f MY_INSTALL_PATH/HiC-Pro/environment.yml -p WHERE_TO_INSTALL_
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
   <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://iris-inch.github.io/notebook.com/" >
-    &copy;  ShinOno 2022 
+    &copy;  ShinOno 2023 
   </a>
     <div>
 <div class="ananke-socials">

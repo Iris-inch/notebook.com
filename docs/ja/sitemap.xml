@@ -2,13 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iris-inch.github.io/notebook.com/post/m1_chip/</loc>
-    <lastmod>2022-12-19T17:26:29+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://iris-inch.github.io/notebook.com/</loc>
-    <lastmod>2022-12-19T17:26:29+09:00</lastmod>
+    <lastmod>2023-01-13T17:11:06+09:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -21,6 +16,16 @@
                 hreflang="ja"
                 href="https://iris-inch.github.io/notebook.com/"
                 />
+  </url><url>
+    <loc>https://iris-inch.github.io/notebook.com/post/vs/</loc>
+    <lastmod>2023-01-13T17:11:06+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iris-inch.github.io/notebook.com/post/m1_chip/</loc>
+    <lastmod>2022-12-19T17:26:29+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://iris-inch.github.io/notebook.com/post/</loc>
     <lastmod>2022-12-14T12:04:59+09:00</lastmod>
